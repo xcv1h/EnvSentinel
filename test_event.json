@@ -1,0 +1,16 @@
+{
+  "version": "0",
+  "id": "poc-test-0001",
+  "detail-type": "Object Created",
+  "source": "aws.s3",
+  "account": "123456789012",
+  "time": "2026-11-15T10:19:00Z",
+  "region": "eu-central-1",
+  "resources": ["arn:aws:s3:::envsentinel-poc-CHANGEME"],
+  "detail": {
+    "version": "0",
+    "bucket": { "name": "envsentinel-poc-CHANGEME" },
+    "object": { "key": "app/.env", "size": 212 },
+    "reason": "PutObject"
+  }
+}
