@@ -1,0 +1,13 @@
+{
+  "source": ["aws.s3"],
+  "detail-type": ["Object Created"],
+  "detail": {
+    "bucket": { "name": ["envsentinel-poc-CHANGEME"] },
+    "object": {
+      "key": [
+        { "suffix": ".env" },
+        { "wildcard": "*.env.*" }
+      ]
+    }
+  }
+}
